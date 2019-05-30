@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		256FAF5F22A04BC300453730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF5E22A04BC300453730 /* AppDelegate.swift */; };
-		256FAF6122A04BC300453730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF6022A04BC300453730 /* ViewController.swift */; };
 		256FAF6422A04BC300453730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256FAF6222A04BC300453730 /* Main.storyboard */; };
 		256FAF6622A04BC300453730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256FAF6522A04BC300453730 /* Assets.xcassets */; };
 		256FAF6922A04BC300453730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256FAF6722A04BC300453730 /* LaunchScreen.storyboard */; };
 		256FAF7322A04D0C00453730 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF7222A04D0C00453730 /* MainController.swift */; };
+		256FAF7522A0595600453730 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF7422A0595600453730 /* HomeCell.swift */; };
+		256FAF7822A05C8B00453730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF7722A05C8B00453730 /* Extensions.swift */; };
+		256FAF7A22A079F500453730 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF7922A079F500453730 /* PhotoDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		256FAF5B22A04BC300453730 /* GasBuddy_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasBuddy_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256FAF5E22A04BC300453730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		256FAF6022A04BC300453730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		256FAF6322A04BC300453730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		256FAF6522A04BC300453730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256FAF6822A04BC300453730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256FAF6A22A04BC300453730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		256FAF7222A04D0C00453730 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		256FAF7422A0595600453730 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		256FAF7722A05C8B00453730 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		256FAF7922A079F500453730 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		256FAF5D22A04BC300453730 /* GasBuddy_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				256FAF7622A05C6D00453730 /* Utils */,
 				256FAF5E22A04BC300453730 /* AppDelegate.swift */,
-				256FAF6022A04BC300453730 /* ViewController.swift */,
 				256FAF6222A04BC300453730 /* Main.storyboard */,
 				256FAF6522A04BC300453730 /* Assets.xcassets */,
 				256FAF6722A04BC300453730 /* LaunchScreen.storyboard */,
 				256FAF6A22A04BC300453730 /* Info.plist */,
 				256FAF7222A04D0C00453730 /* MainController.swift */,
+				256FAF7422A0595600453730 /* HomeCell.swift */,
+				256FAF7922A079F500453730 /* PhotoDetailController.swift */,
 			);
 			path = GasBuddy_Challenge;
+			sourceTree = "<group>";
+		};
+		256FAF7622A05C6D00453730 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				256FAF7722A05C8B00453730 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256FAF6122A04BC300453730 /* ViewController.swift in Sources */,
 				256FAF7322A04D0C00453730 /* MainController.swift in Sources */,
+				256FAF7522A0595600453730 /* HomeCell.swift in Sources */,
+				256FAF7A22A079F500453730 /* PhotoDetailController.swift in Sources */,
 				256FAF5F22A04BC300453730 /* AppDelegate.swift in Sources */,
+				256FAF7822A05C8B00453730 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
