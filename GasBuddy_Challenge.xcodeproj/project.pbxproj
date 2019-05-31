@@ -16,6 +16,7 @@
 		256FAF7822A05C8B00453730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAF7722A05C8B00453730 /* Extensions.swift */; };
 		256FAFEB22A17F9800453730 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEA22A17F9800453730 /* Photo.swift */; };
 		256FAFED22A182EE00453730 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEC22A182EE00453730 /* PhotoDetailController.swift */; };
+		256FAFEF22A1920A00453730 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEE22A1920A00453730 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		256FAF7722A05C8B00453730 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		256FAFEA22A17F9800453730 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		256FAFEC22A182EE00453730 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		256FAFEE22A1920A00453730 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				256FAF7722A05C8B00453730 /* Extensions.swift */,
+				256FAFEE22A1920A00453730 /* CustomImageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				256FAFEB22A17F9800453730 /* Photo.swift in Sources */,
 				256FAFED22A182EE00453730 /* PhotoDetailController.swift in Sources */,
 				256FAF7322A04D0C00453730 /* MainController.swift in Sources */,
+				256FAFEF22A1920A00453730 /* CustomImageView.swift in Sources */,
 				256FAF7522A0595600453730 /* HomeCell.swift in Sources */,
 				256FAF5F22A04BC300453730 /* AppDelegate.swift in Sources */,
 				256FAF7822A05C8B00453730 /* Extensions.swift in Sources */,
