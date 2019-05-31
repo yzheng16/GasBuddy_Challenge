@@ -40,6 +40,12 @@ class MainController: UICollectionViewController, UICollectionViewDelegateFlowLa
                     let photo = Photo()
                     photo.title = dictionary["title"] as? String
                     photo.thumbnailImageName = dictionary["thumbnail_image_name"] as? String
+                    photo.numberOfViews = dictionary["number_of_views"] as? NSNumber
+                    
+                    let channelDictionary = dictionary["channel"] as! [String: AnyObject]
+                    let channel = Channel()
+                    channel.name = channelDictionary["name"] as? String
+                    photo.channel = channel
                     self.photos?.append(photo)
                 }
                 DispatchQueue.main.async {
@@ -72,9 +78,8 @@ class MainController: UICollectionViewController, UICollectionViewDelegateFlowLa
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-//        let postController = PostController(collectionViewLayout: layout)
         let photoDetailController = PhotoDetailController()
+        photoDetailController.photo = photos![indexPath.item]
         navigationController?.pushViewController(photoDetailController, animated: true)
     }
 }
