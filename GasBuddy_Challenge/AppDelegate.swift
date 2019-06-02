@@ -18,9 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow()
         
-        let layout = UICollectionViewFlowLayout()
-        
-        window?.rootViewController = UINavigationController(rootViewController: MainController(collectionViewLayout: layout))
+//        let layout = UICollectionViewFlowLayout()
+//
+//        window?.rootViewController = UINavigationController(rootViewController: MainController(collectionViewLayout: layout))
+        window?.rootViewController = MainTabBarController()
         return true
     }
 

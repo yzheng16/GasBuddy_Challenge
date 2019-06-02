@@ -17,6 +17,10 @@
 		256FAFEB22A17F9800453730 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEA22A17F9800453730 /* Photo.swift */; };
 		256FAFED22A182EE00453730 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEC22A182EE00453730 /* PhotoDetailController.swift */; };
 		256FAFEF22A1920A00453730 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFEE22A1920A00453730 /* CustomImageView.swift */; };
+		256FAFF122A4355C00453730 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF022A4355C00453730 /* MainTabBarController.swift */; };
+		256FAFF322A45E7400453730 /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF222A45E7400453730 /* PhotoSelectorController.swift */; };
+		256FAFF622A4649A00453730 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF522A4649A00453730 /* PhotoSelectorCell.swift */; };
+		256FAFF822A464DA00453730 /* PhotoSelectorHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		256FAFEA22A17F9800453730 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		256FAFEC22A182EE00453730 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
 		256FAFEE22A1920A00453730 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		256FAFF022A4355C00453730 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		256FAFF222A45E7400453730 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
+		256FAFF522A4649A00453730 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		256FAF5D22A04BC300453730 /* GasBuddy_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				256FAFF422A4647700453730 /* LocalPictures */,
 				256FAFE922A17F4300453730 /* Model */,
 				256FAF7622A05C6D00453730 /* Utils */,
 				256FAF5E22A04BC300453730 /* AppDelegate.swift */,
@@ -74,6 +83,7 @@
 				256FAF7222A04D0C00453730 /* MainController.swift */,
 				256FAF7422A0595600453730 /* HomeCell.swift */,
 				256FAFEC22A182EE00453730 /* PhotoDetailController.swift */,
+				256FAFF022A4355C00453730 /* MainTabBarController.swift */,
 			);
 			path = GasBuddy_Challenge;
 			sourceTree = "<group>";
@@ -93,6 +103,16 @@
 				256FAFEA22A17F9800453730 /* Photo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		256FAFF422A4647700453730 /* LocalPictures */ = {
+			isa = PBXGroup;
+			children = (
+				256FAFF222A45E7400453730 /* PhotoSelectorController.swift */,
+				256FAFF522A4649A00453730 /* PhotoSelectorCell.swift */,
+				256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */,
+			);
+			path = LocalPictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +188,15 @@
 			files = (
 				256FAFEB22A17F9800453730 /* Photo.swift in Sources */,
 				256FAFED22A182EE00453730 /* PhotoDetailController.swift in Sources */,
+				256FAFF122A4355C00453730 /* MainTabBarController.swift in Sources */,
+				256FAFF322A45E7400453730 /* PhotoSelectorController.swift in Sources */,
 				256FAF7322A04D0C00453730 /* MainController.swift in Sources */,
+				256FAFF822A464DA00453730 /* PhotoSelectorHeaderCell.swift in Sources */,
 				256FAFEF22A1920A00453730 /* CustomImageView.swift in Sources */,
 				256FAF7522A0595600453730 /* HomeCell.swift in Sources */,
 				256FAF5F22A04BC300453730 /* AppDelegate.swift in Sources */,
 				256FAF7822A05C8B00453730 /* Extensions.swift in Sources */,
+				256FAFF622A4649A00453730 /* PhotoSelectorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

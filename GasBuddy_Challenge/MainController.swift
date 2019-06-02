@@ -95,7 +95,6 @@ class MainController: UICollectionViewController, UICollectionViewDelegateFlowLa
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//        return photos?.count ?? 0
         return filterPhotos.count
     }
     
