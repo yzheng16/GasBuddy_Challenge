@@ -72,6 +72,7 @@
 		256FAF5D22A04BC300453730 /* GasBuddy_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				256FAFF922A473AF00453730 /* Home */,
 				256FAFF422A4647700453730 /* LocalPictures */,
 				256FAFE922A17F4300453730 /* Model */,
 				256FAF7622A05C6D00453730 /* Utils */,
@@ -80,9 +81,6 @@
 				256FAF6522A04BC300453730 /* Assets.xcassets */,
 				256FAF6722A04BC300453730 /* LaunchScreen.storyboard */,
 				256FAF6A22A04BC300453730 /* Info.plist */,
-				256FAF7222A04D0C00453730 /* MainController.swift */,
-				256FAF7422A0595600453730 /* HomeCell.swift */,
-				256FAFEC22A182EE00453730 /* PhotoDetailController.swift */,
 				256FAFF022A4355C00453730 /* MainTabBarController.swift */,
 			);
 			path = GasBuddy_Challenge;
@@ -113,6 +111,16 @@
 				256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */,
 			);
 			path = LocalPictures;
+			sourceTree = "<group>";
+		};
+		256FAFF922A473AF00453730 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				256FAF7222A04D0C00453730 /* MainController.swift */,
+				256FAF7422A0595600453730 /* HomeCell.swift */,
+				256FAFEC22A182EE00453730 /* PhotoDetailController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
