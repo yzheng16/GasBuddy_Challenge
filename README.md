@@ -7,5 +7,3 @@
 5. Displaying photos from local device and selecting one picture.
 6. Implemented Unit Testing about color function
 
-## Bugs
-1. When user get local pictures at the first time, system will ask permission for local photos. when user click ok for permission, photos won't show up at the first time. They will show up at the second time.
