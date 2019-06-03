@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Photos
 
 class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate = self
         setupTabBarViewController()
+        PHPhotoLibrary.requestAuthorization { (authStatus) in
+            return
+        }
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
