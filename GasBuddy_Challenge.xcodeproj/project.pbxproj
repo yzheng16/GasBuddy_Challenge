@@ -21,7 +21,18 @@
 		256FAFF322A45E7400453730 /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF222A45E7400453730 /* PhotoSelectorController.swift */; };
 		256FAFF622A4649A00453730 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF522A4649A00453730 /* PhotoSelectorCell.swift */; };
 		256FAFF822A464DA00453730 /* PhotoSelectorHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */; };
+		256FB00122A4CB5800453730 /* GasBuddy_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FB00022A4CB5800453730 /* GasBuddy_ChallengeTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256FB00322A4CB5800453730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256FAF5322A04BC300453730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256FAF5A22A04BC300453730;
+			remoteInfo = GasBuddy_Challenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		256FAF5B22A04BC300453730 /* GasBuddy_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasBuddy_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,10 +51,20 @@
 		256FAFF222A45E7400453730 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
 		256FAFF522A4649A00453730 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		256FAFF722A464DA00453730 /* PhotoSelectorHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeaderCell.swift; sourceTree = "<group>"; };
+		256FAFFE22A4CB5800453730 /* GasBuddy_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasBuddy_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256FB00022A4CB5800453730 /* GasBuddy_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasBuddy_ChallengeTests.swift; sourceTree = "<group>"; };
+		256FB00222A4CB5800453730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		256FAF5822A04BC300453730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256FAFFB22A4CB5800453730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				256FAF5D22A04BC300453730 /* GasBuddy_Challenge */,
+				256FAFFF22A4CB5800453730 /* GasBuddy_ChallengeTests */,
 				256FAF5C22A04BC300453730 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				256FAF5B22A04BC300453730 /* GasBuddy_Challenge.app */,
+				256FAFFE22A4CB5800453730 /* GasBuddy_ChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +146,15 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		256FAFFF22A4CB5800453730 /* GasBuddy_ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				256FB00022A4CB5800453730 /* GasBuddy_ChallengeTests.swift */,
+				256FB00222A4CB5800453730 /* Info.plist */,
+			);
+			path = GasBuddy_ChallengeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +175,24 @@
 			productReference = 256FAF5B22A04BC300453730 /* GasBuddy_Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		256FAFFD22A4CB5800453730 /* GasBuddy_ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256FB00522A4CB5800453730 /* Build configuration list for PBXNativeTarget "GasBuddy_ChallengeTests" */;
+			buildPhases = (
+				256FAFFA22A4CB5800453730 /* Sources */,
+				256FAFFB22A4CB5800453730 /* Frameworks */,
+				256FAFFC22A4CB5800453730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256FB00422A4CB5800453730 /* PBXTargetDependency */,
+			);
+			name = GasBuddy_ChallengeTests;
+			productName = GasBuddy_ChallengeTests;
+			productReference = 256FAFFE22A4CB5800453730 /* GasBuddy_ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +205,10 @@
 				TargetAttributes = {
 					256FAF5A22A04BC300453730 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					256FAFFD22A4CB5800453730 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 256FAF5A22A04BC300453730;
 					};
 				};
 			};
@@ -172,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				256FAF5A22A04BC300453730 /* GasBuddy_Challenge */,
+				256FAFFD22A4CB5800453730 /* GasBuddy_ChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +239,13 @@
 				256FAF6922A04BC300453730 /* LaunchScreen.storyboard in Resources */,
 				256FAF6622A04BC300453730 /* Assets.xcassets in Resources */,
 				256FAF6422A04BC300453730 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256FAFFC22A4CB5800453730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +270,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		256FAFFA22A4CB5800453730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256FB00122A4CB5800453730 /* GasBuddy_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256FB00422A4CB5800453730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256FAF5A22A04BC300453730 /* GasBuddy_Challenge */;
+			targetProxy = 256FB00322A4CB5800453730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		256FAF6222A04BC300453730 /* Main.storyboard */ = {
@@ -382,6 +460,46 @@
 			};
 			name = Release;
 		};
+		256FB00622A4CB5800453730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXJQ4CBH5L;
+				INFOPLIST_FILE = GasBuddy_ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nait.yzheng16.GasBuddy-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasBuddy_Challenge.app/GasBuddy_Challenge";
+			};
+			name = Debug;
+		};
+		256FB00722A4CB5800453730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXJQ4CBH5L;
+				INFOPLIST_FILE = GasBuddy_ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.nait.yzheng16.GasBuddy-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasBuddy_Challenge.app/GasBuddy_Challenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +517,15 @@
 			buildConfigurations = (
 				256FAF6E22A04BC300453730 /* Debug */,
 				256FAF6F22A04BC300453730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256FB00522A4CB5800453730 /* Build configuration list for PBXNativeTarget "GasBuddy_ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256FB00622A4CB5800453730 /* Debug */,
+				256FB00722A4CB5800453730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
